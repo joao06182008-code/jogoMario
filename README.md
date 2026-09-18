@@ -6,12 +6,16 @@ Um jogo simples do mario feito com HTML, CSS, e JS
 
 ## Instalação
 
+```text
 cd frontend
 npm install
+```
 
 ## Execução
 
+```text
 npm run dev
+```
 
 ## Integrantes
 
