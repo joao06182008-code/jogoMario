@@ -7,14 +7,7 @@ Um jogo simples do mario feito com HTML, CSS, e JS
 ## Instalação
 
 ```text
-cd frontend
-npm install
-```
-
-## Execução
-
-```text
-npm run dev
+git clone https://github.com/joao06182008-code/jogoMario.git
 ```
 
 ## Integrantes
