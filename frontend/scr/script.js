@@ -16,9 +16,7 @@ let score = 0;
 const jump = (event) => {
     const isAllowedKey = event.key === ' ';
     if (!isAllowedKey) return;
-
     if (event.repeat) return;
-
     if (mario.classList.contains('jump')) return;
 
     mario.classList.add('jump');
@@ -40,6 +38,7 @@ const loop = setInterval(() => {
     scoreDisplay.textContent = score;
 
     if (pipePosition <= 120 && pipePosition > 0 && marioPosition < 80) { audio.pause();
+        jumpSound.pause();
         gameOverSound.play();
         restartButton.style.display = 'block';
         clearInterval(loop);
