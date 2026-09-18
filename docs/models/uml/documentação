@@ -1,0 +1,21 @@
+Visão Geral - Um jogo de plataforma 2D inspirado no clássico estilo Mário, focado em agilidade e precisão nos pulos.
+​
+​Plataforma - Web (Navegador)
+
+​Público-Alvo - A partir de 10 anos
+
+​Nome do Jogo - Super Mario Runner
+
+​Linguagem de Programação - JS, HTML e CSS
+
+​Objetivo do Jogo - Superar os trechos do percurso e os obstáculos apresentados por meio de saltos cronometrados.
+
+​Movimentação - Deslocamento horizontal contínuo com a execução de saltos verticais para transposição de barreiras.
+
+​Controles - Uso da barra de espaço.
+
+​Sistema de Vidas - Reseta o game quando o usúario morre
+
+​Pontuação - Sistema de pontuação conforme o tempo vivo
+
+​Obstáculos - Elementos móveis no cenário que exigem o pulo no momento certo
