@@ -14,11 +14,12 @@ gameOverSound.volume = 0.5;
 let score = 0;
 
 const jump = (event) => {
-    const isAllowedKey = 
-        event.key === ' ' || 
-        event.key === 'Space'; 
-
+    const isAllowedKey = event.key === ' ';
     if (!isAllowedKey) return;
+
+    if (event.repeat) return;
+
+    if (mario.classList.contains('jump')) return;
 
     mario.classList.add('jump');
 
